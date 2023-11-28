@@ -1,0 +1,60 @@
+ul {
+    list-style: none;
+
+    margin: 0;
+    padding: 0%;
+    overflow: hidden;
+    background-color: #08080800;
+}
+ 
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #8725b4a1;
+}
+h1 {
+    background-color: violet;
+    text-align: center;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #030303;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: #030303;
+    text-align: center;
+    padding: 14px 16px ;
+    text-decoration: none;
+}
+.dropdown {
+     float: left;
+     overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #030303;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.navbar a:hover, .dropbtn {
+    background-color: #030303;
+}
+
